@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   server : {
     proxy : {
-      '/api' : 'https://mern-proj-124k.onrender.com'
+      '/api' : 'https://server-main-9kzk.onrender.com'
     }
   }
 })

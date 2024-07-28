@@ -12,7 +12,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://mern-proj-124k.onrender.com/api/$1"
+      "destination": "https://server-main-9kzk.onrender.com/api/$1"
     },
     {
       "source": "/(.*)",
@@ -20,6 +20,6 @@
     }
   ],
   "env": {
-    "VITE_API_BASE_URL": "https://mern-proj-124k.onrender.com/api/v1"
+    "VITE_API_BASE_URL": "https://server-main-9kzk.onrender.com/api/v1"
   }
 }
