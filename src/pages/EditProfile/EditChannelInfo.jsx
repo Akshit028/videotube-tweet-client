@@ -76,7 +76,7 @@ function EditChannelInfo() {
               </label>
               <div className="flex bg-gray-700 rounded-lg">
                 <p className="flex shrink-0 items-center px-3 border-r align-middle">
-                  videoTube.vercel.app/
+                  videotube-tweet.vercel.app/
                 </p>
                 <input
                   type="text"

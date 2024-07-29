@@ -23,8 +23,8 @@ const ChannelAbout = () => {
     },
     {
       icon: FaGlobe,
-      text: `https://videoTube.vercel.app/channel/${channelAbout?.username}`,
-      link: `https://videoTube.vercel.app/channel/${channelAbout?.username}`,
+      text: `https://videotube-tweet.vercel.app/channel/${channelAbout?.username}`,
+      link: `https://videotube-tweet.vercel.app/channel/${channelAbout?.username}`,
     },
     { icon: FaVideo, text: `${channelAbout?.totalVideos} Videos` },
     { icon: FaEye, text: `${channelAbout?.totalViews} Views` },
