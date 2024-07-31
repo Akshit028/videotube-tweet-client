@@ -39,7 +39,7 @@ function PlaylistName({ playlistId, videoId, playlistName }) {
             }
           }}
         />
-        <span className="inline-flex h-4 w-4 items-center justify-center rounded-[4px] border border-transparent bg-white text-white group-hover/label:border-blue-500 peer-checked:border-blue-700 peer-checked:text-blue-700">
+        <span className="inline-flex h-4 w-4 items-center justify-center rounded-[4px] border border-transparent bg-white text-white group-hover/label:border-[#212121] peer-checked:border-[#212121] peer-checked:text-[#212121]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

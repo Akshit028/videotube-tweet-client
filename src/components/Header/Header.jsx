@@ -86,9 +86,9 @@ function Header() {
           onClick={handleSideBar}
           className="cursor-pointer group peer ml-4 flex w-6 shrink-0 flex-wrap gap-y-1.5 sm:hidden"
         >
-          <span className="block h-[2px] w-full bg-white group-hover:bg-blue-400"></span>
-          <span className="block h-[2px] w-2/3 bg-white group-hover:bg-blue-400"></span>
-          <span className="block h-[2px] w-full bg-white group-hover:bg-blue-400"></span>
+          <span className="block h-[2px] w-full bg-white group-hover:bg-[#212121]"></span>
+          <span className="block h-[2px] w-2/3 bg-white group-hover:bg-[#212121]"></span>
+          <span className="block h-[2px] w-full bg-white group-hover:bg-[#212121]"></span>
         </button>
         <div
           className={`fixed inset-y-0 right-0 flex w-full max-w-xs shrink-0 ${
@@ -109,7 +109,7 @@ function Header() {
                 <li key={index} className="w-full">
                   <Link
                     to={item.path}
-                    className="flex w-full items-center justify-start gap-x-4 border border-white px-4 py-1.5 text-left hover:bg-blue-400 hover:text-black focus:border-blue-500 focus:bg-blue-400 focus:text-black"
+                    className="flex w-full items-center justify-start gap-x-4 border border-white px-4 py-1.5 text-left hover:bg-[#212121] hover:text-black focus:border-[#212121] focus:bg-[#212121] focus:text-black"
                   >
                     <span className="inline-block w-full max-w-[20px] group-hover:mr-4 lg:mr-4">
                       {item.icon}
@@ -121,7 +121,7 @@ function Header() {
             </ul>
           </IconContext.Provider>
           <div className="mb-8 mt-auto flex w-full flex-wrap gap-4 px-4 sm:mb-0 sm:mt-0 sm:items-center sm:px-0">
-            <Button className="bg-green-800" onClick={handleUploadVideo}>Upload Video</Button>
+            <Button className="bg-[#212121] text-white rounded-full" onClick={handleUploadVideo}>Upload Video</Button>
   
             {authStatus && userData && (
               <>
@@ -155,7 +155,7 @@ function Header() {
             {!authStatus && (
               <>
                 <Link to="/login">
-                  <button className="bg-blue-800 mr-1 rounded px-3 py-2 text-center text-white transition-all duration-150 ease-in-out active:translate-x-[5px] active:translate-y-[5px] active:shadow-[0px_0px_0px_0px_#4f4e4e] sm:w-auto ">Log in</button>
+                  <button className="bg-[#212121] mr-1 rounded-full px-3 py-2 text-center text-white transition-all duration-150 ease-in-out active:translate-x-[5px] active:translate-y-[5px] active:shadow-[0px_0px_0px_0px_#4f4e4e] sm:w-auto ">Log in</button>
                 </Link>
               </>
             )}

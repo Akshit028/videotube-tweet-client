@@ -64,7 +64,7 @@ function SearchVideos() {
             Search Results for "{query}"
           </h1>
           <button
-            className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
+            className="flex items-center space-x-2 text-[#212121] hover:text-[#212121] transition-colors duration-200"
             onClick={() => setFilterOpen((prev) => !prev)}
           >
             <span>Filters</span>
@@ -125,7 +125,7 @@ function SearchVideos() {
                   ].map((item) => (
                     <li key={item.label}>
                       <button
-                        className="text-gray-300 hover:text-blue-400 transition-colors duration-200 w-full text-left"
+                        className="text-gray-300 hover:text-[#212121] transition-colors duration-200 w-full text-left"
                         onClick={() => {
                           handleSortParams(item.sortBy, item.sortType);
                           setFilterOpen(false);
@@ -154,7 +154,7 @@ function SearchVideos() {
             <button
               onClick={() => fetchNextPage()}
               disabled={isFetchingNextPage}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-colors duration-200 disabled:opacity-50"
+              className="bg-[#212121] hover:bg-[#212121] text-white font-bold py-2 px-4 rounded-full transition-colors duration-200 disabled:opacity-50"
             >
               {isFetchingNextPage ? "Loading more..." : "Load More"}
             </button>

@@ -67,19 +67,19 @@ function Comment({ comment }) {
               <div className="flex items-center gap-3">
                 <input
                   type="text"
-                  className="w-full mt-3 p-2 text-gray-200 bg-gray-800 border border-gray-800 rounded-md dark:border-gray-700  focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none"
+                  className="w-full mt-3 p-2 text-gray-200 bg-gray-800 border border-gray-800 rounded-md dark:border-gray-700  focus:border-[#212121] focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-[#212121] dark:focus:ring-[#212121] focus:ring dark:bg-gray-800 focus:outline-none"
                   value={editedComment}
                   onChange={handleCommentChange}
                 />
                 <button
                   onClick={() => setIsEditing(false)}
-                  className="mt-3 px-4 py-2 text-sm text-white bg-blue-500 rounded-md"
+                  className="mt-3 px-4 py-2 text-sm text-white bg-[#212121] rounded-md"
                 >
                   Cancel
                 </button>
                 <button
                   onClick={() => handleEditComment()}
-                  className="mt-3 px-4 py-2 text-sm text-white bg-blue-500 rounded-md"
+                  className="mt-3 px-4 py-2 text-sm text-white bg-[#212121] rounded-md"
                 >
                   Save
                 </button>

@@ -113,7 +113,7 @@ function MyChannel() {
                 className={
                   ({ isActive }) =>
                     isActive
-                      ? "text-lg w-full flex justify-center items-center border-b-2 border-blue-500 bg-white px-3 py-1.5 text-blue-600" // Active link color
+                      ? "text-lg w-full flex justify-center items-center border-b-2 border-[#212121] bg-white px-3 py-1.5 text-[#212121]" // Active link color
                       : "text-lg w-full flex justify-center items-center border-b-2  border-transparent px-3 py-1.5 text-gray-400" // Inactive link color
                 }
               >

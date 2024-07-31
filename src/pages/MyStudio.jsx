@@ -70,7 +70,7 @@ function MyStudio() {
           </div>
           <button
             onClick={handleUploadVideoClick}
-            className="inline-flex items-center gap-x-2 bg-blue-800 px-4 py-2 font-semibold text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+            className="inline-flex items-center gap-x-2 bg-[#212121] px-4 py-2 font-semibold text-white rounded-lg shadow-md hover:bg-[#212121] transition-colors duration-300"
           >
             <CiSquarePlus className="text-xl sm:text-2xl" />
             Upload Video
@@ -84,7 +84,7 @@ function MyStudio() {
                 key={index}
                 className="p-6 rounded-lg bg-[#131313] flex flex-col items-center hover:bg-[#0e0e0e] transition-colors duration-300"
               >
-                <div className="mb-4 flex items-center justify-center h-12 w-12 rounded-full bg-blue-200 text-blue-600">
+                <div className="mb-4 flex items-center justify-center h-12 w-12 rounded-full bg-[#212121] text-[#212121]">
                   {item.icon}
                 </div>
                 <h6 className="text-gray-400">{item.title}</h6>

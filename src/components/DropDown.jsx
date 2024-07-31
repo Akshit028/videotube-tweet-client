@@ -24,7 +24,7 @@ function DropDown({ handleEdit, handleDelete }) {
       <div className="relative inline-block w-full " ref={dropdownRef}>
         <button
           onClick={() => handleMenu()}
-          className="relative z-10 ml-8 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none"
+          className="relative z-10 ml-8 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-[#212121] focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-[#212121] dark:focus:ring-[#212121] focus:ring dark:bg-gray-800 focus:outline-none"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

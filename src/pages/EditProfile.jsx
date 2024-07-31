@@ -43,7 +43,7 @@ function EditProfile() {
             <div className="inline-flex min-w-[145px] justify-end">
               <Link
                 to={`/channel/${channelInfo?.username}`}
-                className="px-4 py-1.5 text-sm text-white bg-blue-800 rounded-md"
+                className="px-4 py-1.5 text-sm text-white bg-[#212121] rounded-md"
               >
                 View Channel
               </Link>

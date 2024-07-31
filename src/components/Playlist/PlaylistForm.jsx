@@ -64,7 +64,7 @@ function PlaylistForm({ onClose, isEdit = false, playlist }) {
               </span>
             )}
             <input
-              className="w-full mb-3 rounded-lg border border-transparent bg-gray-700 px-3 py-2 text-white outline-none focus:border-blue-500"
+              className="w-full mb-3 rounded-lg border border-transparent bg-gray-700 px-3 py-2 text-white outline-none focus:border-[#212121]"
               id="playlist-name"
               placeholder="Enter playlist name"
               {...register("name")}
@@ -81,14 +81,14 @@ function PlaylistForm({ onClose, isEdit = false, playlist }) {
               </span>
             )}
             <textarea
-              className="w-full rounded-lg border border-transparent bg-gray-700 px-3 py-2 text-white outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-transparent bg-gray-700 px-3 py-2 text-white outline-none focus:border-[#212121]"
               id="playlist-name"
               placeholder="Enter playlist description"
               {...register("description")}
             />
             <button
               type="submit"
-              className="mx-auto mt-4 rounded-lg bg-blue-500 px-4 py-2 text-white"
+              className="mx-auto mt-4 rounded-lg bg-[#212121] px-4 py-2 text-white"
             >
               {isEdit ? "Update playlist" : "Create new playlist"}
             </button>

@@ -27,7 +27,7 @@ function Login() {
           <h1 className="text-2xl text-[#FFFFFF] text-extrabold">LOGIN</h1>
           <span className="text-[#FFFFFF] ">
             Don't have an account? 
-            <Link to="/signup" className="text-blue-500 inline">
+            <Link to="/signup" className="text-[#212121] inline">
             ‎ SignUp
             </Link>
           </span>

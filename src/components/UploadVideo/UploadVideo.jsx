@@ -62,13 +62,13 @@ function UploadVideo() {
           <div className="flex gap-4 items-center justify-center">
             <SpButton
               onClick={handleReset}
-              className="bg-blue-500 text-[#f1faee] hover:bg-blue-400"
+              className="bg-[#212121] text-[#f1faee] hover:bg-[#212121]"
             >
               Reset
             </SpButton>
             <button onClick={handleClose}>
               <IoIosCloseCircleOutline
-                className="w-8 h-8 text-[#f1faee] hover:text-blue-500"
+                className="w-8 h-8 text-[#f1faee] hover:text-[#212121]"
               />
             </button>
           </div>

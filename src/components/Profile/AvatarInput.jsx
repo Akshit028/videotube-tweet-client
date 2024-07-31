@@ -20,12 +20,12 @@ function AvatarInput({ avatar }) {
 
   return (
     <div
-      className=" relative h-full w-full rounded-full bg-blue-300/20 bg-cover bg-center bg-no-repeat"
+      className=" relative h-full w-full rounded-full bg-[#212121] bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${selectedProfile})` }}
     >
       {isPending && (
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-blue-500"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#212121]"></div>
         </div>
       )}
       <label
@@ -48,7 +48,7 @@ function AvatarInput({ avatar }) {
         <div className="relative h-full w-full justify-center items-center gap-4 z-30 flex flex-col">
           {profilePic && (
             <button
-              className={`bg-blue-500 text-white p-1 rounded-full hover:bg-blue-600 text-sm ${
+              className={`bg-[#212121] text-white p-1 rounded-full hover:bg-[#212121] text-sm ${
                 isPending && "cursor-not-allowed"
               }`}
               onClick={handleUploadAvatar}
@@ -59,7 +59,7 @@ function AvatarInput({ avatar }) {
             </button>
           )}
           <span className="bg-white z-40 rounded-full absolute right-0 bottom-0 p-1">
-            <MdEdit className="w-6 text-blue-500 hover:opacity-100" />
+            <MdEdit className="w-6 text-[#212121] hover:opacity-100" />
           </span>
         </div>
       </label>

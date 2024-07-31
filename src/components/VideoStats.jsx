@@ -136,7 +136,7 @@ function VideoStats() {
                     <div className="flex gap-4">
                       <button
                         onClick={() => handleEdit(video)}
-                        className="h-5 w-5 hover:text-blue-500"
+                        className="h-5 w-5 hover:text-[#212121]"
                       >
                         <MdModeEditOutline className="w-6 h-6" />
                       </button>
@@ -216,7 +216,7 @@ function VideoStats() {
                     <div className="flex gap-4">
                       <button
                         onClick={() => handleEdit(video)}
-                        className="h-5 w-5 hover:text-blue-500"
+                        className="h-5 w-5 hover:text-[#212121]"
                       >
                         <MdModeEditOutline className="w-6 h-6" />
                       </button>

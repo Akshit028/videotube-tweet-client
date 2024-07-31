@@ -48,8 +48,7 @@ function EditVideo() {
 
   return (
     <div
-      className="
-       mt-16 ml-0 overflow-x-hidden  sm:ml-8 absolute  inset-0 z-10 bg-black/50 px-4 w-full  pb-[80px] pt-4 sm:px-14 sm:py-8"
+      className="mt-16 ml-0 overflow-x-hidden  sm:ml-8 absolute  inset-0 z-10 bg-black/50 px-4 w-full  pb-[80px] pt-4 sm:px-14 sm:py-8"
     >
       {" "}
       <div className="h-full overflow-auto border bg-[#0e0e0e] ">

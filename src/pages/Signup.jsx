@@ -81,7 +81,7 @@ function Signup() {
           <h1 className="text-2xl">Signup</h1>
           <span>
             Already have an account?{" "}
-            <Link to="/login" className="text-blue-500 inline">
+            <Link to="/login" className="text-[#212121] inline">
               Login
             </Link>
           </span>
