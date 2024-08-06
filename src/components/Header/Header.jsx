@@ -126,7 +126,7 @@ function Header() {
             {authStatus && userData && (
               <>
                 <Button
-                  className="bg-red-700 hover:bg-red-500"
+                  className="bg-[#212121] rounded-full"
                   onClick={handleLogout}
                 >
                   Logout
